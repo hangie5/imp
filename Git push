@@ -1,0 +1,28 @@
+➜  github git:(master) ✗ git add .
+➜  github git:(master) ✗ git commit -m "Done"
+[master d7a986c] Done
+ Committer: Tjing Han Lin <tlin@f0r3s17.codam.nl>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 2 files changed, 1 deletion(-)
+ delete mode 160000 zsh-syntax-highlighting
+➜  github git:(master) git push origin master
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 420 bytes | 420.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0)
+remote: . Processing 1 references
+remote: Processed 1 references in total
+To vogsphere-v2.codam.nl:vogsphere/intra-uuid-b5889a9e-1418-4360-9e4d-0e4553203660-5055347-tlin
+   d46cef9..d7a986c  master -> master
