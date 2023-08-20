@@ -1,0 +1,10 @@
+//To get a ersponse from terminal/output add this to the end of the code:
+
+int main(void)
+{
+    "function name (for example ft_print_alphabet)"();
+    return(0);
+} 
+
+// in terminal: cc (file name) 
+then ./a.out
